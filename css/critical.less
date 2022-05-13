@@ -1,0 +1,253 @@
+
+/*-- -------------------------- -->
+<---          Landing           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0em) {
+
+    #hero {
+        font-size: inherit;
+        padding-bottom: 270/16em;
+        padding-top: 150/16em;
+        position: relative;
+        z-index: 1;
+
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 100%;
+            background: #000;
+            opacity: .65;
+            top: 0;
+            left: 0;
+            z-index: -10;
+        }
+
+        picture {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -11;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .hero-content {
+            width: 96%;
+            max-width: 1144/16em;
+            margin: auto;
+            position: relative;
+            z-index: 10;
+            text-align: center;
+        }
+
+        .hero-content {
+            padding: 0;
+        }
+
+        .heroText {
+            width: 100%;
+            margin: auto;
+            max-width: 910/16em;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size:~"min(12vw, 4em)";
+            color: #fff;
+            text-align: center;
+            line-height: 77/64;
+            margin: auto;
+            width: 100%;
+            max-width: 904/64em;
+            margin-bottom: 92/64em;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 4/64em;
+                width: 97/64em;
+                background: var(--primary);
+                opacity: 1;
+                bottom: -16/64em;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        p {
+            line-height: 1.55em;
+            margin: auto;
+            margin-bottom: 31/18em;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            max-width: 617/18em;
+            opacity: 1;
+        }
+
+        .button-solid {
+            margin: auto;
+            display: inline-block;
+            width: auto;
+        }
+    }
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 48em) {
+
+    #hero {
+        padding: 200/16em 0 300/16em 0;
+        z-index: 1;
+        overflow: hidden;
+
+        .hero-content {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+    }
+}
+
+/* Small Desktop */
+@media only screen and (min-width: 1300px) {
+
+    #hero {
+        padding-top: 273/16em;
+        padding-bottom: 307/16em;
+        background: url("../images/landing.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        picture {
+            display: none;
+        }
+    }
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0em) {
+
+    .services {
+        border-radius: 5/16em;
+        margin: auto;
+        margin-top: -167/16em;
+        position: relative;
+        z-index: 100;
+        background: #fff;
+        width: 90%;
+        max-width: 1320/16em;
+        padding: 50/16em 20/16em;
+        border-top: 6/16em solid var(--primary);
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+        margin-bottom: 50/16em;
+        .card {
+            display: block;
+            width: 100%;
+            max-width: 357/16em;
+            margin: auto;
+            margin-bottom: 50/16em;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            picture {
+                background: var(--primary);
+                width: 88/16em;
+                height: 88/16em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                margin-bottom: 23/16em;
+                border-radius: 50%;
+
+                img {
+                    width: 48/16em;
+                    height: 48/16em;
+                }
+            }
+            h2 {
+                text-align: center;
+                font-size: 32/16em;
+                line-height: 27/20em;
+                font-weight: 700;
+                color: #1a1a1a;
+                margin-bottom: 13/20em;
+            }
+            p {
+                text-align: center;
+                line-height: 24/18em;
+                width: 100%;
+                opacity: .7;
+            }
+        }
+    }
+}
+
+/* Inbetween */
+@media only screen and (min-width: 768px) {
+    .services {
+        font-size:~"min(1.8vw, 1em)";
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 98%;
+
+        .card {
+            margin: 0;
+            max-width: 325/16em;
+        }
+    }
+}
+
+/* Large Desktop */
+@media only screen and (min-width: 1300px) {
+    .services {
+        padding: 50/16em 80/16em;
+
+        .card {
+            max-width: 357/16em;
+        }
+    }
+}
+
+/* Dark mode */
+@media only screen and (min-width: 0em) {
+    body.dark-mode {
+        #services {
+            background: var(--medium);
+
+            picture {
+                background: var(--primaryDark);
+            }
+
+            h2 {
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+    }
+}
