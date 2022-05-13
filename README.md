@@ -66,7 +66,9 @@ As you may or may not know, em units are based on the font size of its parent el
 
   
   
-
+Here's a video of me building a website using these em calculations and showing you exactly how it all works with a real project.
+  
+  https://youtu.be/gUakUDC8UdE
   
   
   
