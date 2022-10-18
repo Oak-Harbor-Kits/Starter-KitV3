@@ -49,9 +49,9 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 3.75em;
-    width: 3em;
-    height: 3em;
+    right: 60/16em;
+    width: 48/16em;
+    height: 48/16em;
     background: transparent;
     border: none;
     overflow: hidden;
@@ -63,20 +63,20 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1.5625em;
-    height: 1.5625em;
+    width: 25/16em;
+    height: 25/16em;
     pointer-events: none;
   }
   #dark-mode-toggle .moon {
     z-index: 2;
-    transition: transform .3s, opacity .3s, fill .3s;
+    transition: transform 0.3s, opacity 0.3s, fill 0.3s;
     fill: #000;
   }
   #dark-mode-toggle .sun {
     z-index: 1;
     transform: translate(-50%, 100%);
     opacity: 0;
-    transition: transform .3s, opacity .3s;
+    transition: transform 0.3s, opacity 0.3s;
   }
 }
 /* Desktop */
@@ -86,8 +86,8 @@
     top: auto;
     right: auto;
     transform: none;
-    margin-left: 1.875em;
-    margin-bottom: 0em;
+    margin-left: 30/16em;
+    margin-bottom: 0/16em;
   }
   #dark-mode-toggle .moon {
     fill: #fff;

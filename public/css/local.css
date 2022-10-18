@@ -15,19 +15,19 @@
   #sidebyside .content {
     order: 2;
     margin: auto;
-    margin-top: 4.6875em;
-    max-width: 38.1875em;
+    margin-top: 75/16em;
+    max-width: 611/16em;
   }
   #sidebyside .content h2 {
-    font-size: 3em;
-    margin-bottom: 0.875em;
+    font-size: 48/16em;
+    margin-bottom: 42/48em;
   }
   #sidebyside .content p {
-    margin-bottom: 1.11111111em;
+    margin-bottom: 20/18em;
   }
   #sidebyside .content ul {
-    padding-left: 1.25em;
-    margin-bottom: 1.25em;
+    padding-left: 20/16em;
+    margin-bottom: 20/16em;
   }
   #sidebyside .content ul li {
     list-style: none;
@@ -36,18 +36,18 @@
     align-items: flex-start;
   }
   #sidebyside .content ul li img {
-    margin-right: 0.625em;
-    margin-top: 0.22222222em;
+    margin-right: 10/16em;
+    margin-top: 4/18em;
   }
   #sidebyside .content .button-solid {
-    margin-top: 1.78571429em;
+    margin-top: 25/14em;
   }
   #sidebyside .image-box {
     display: block;
     position: relative;
     margin: auto;
-    width: 38.1875em;
-    height: 53.8125em;
+    width: 611/16em;
+    height: 861/16em;
     font-size: min(1.4vw, 1em);
   }
   #sidebyside .image-box:before {
@@ -58,22 +58,22 @@
     width: 100%;
     background: var(--primary);
     opacity: 1;
-    top: 2.5em;
-    left: -2.5em;
+    top: 40/16em;
+    left: -40/16em;
   }
   #sidebyside .image-box:after {
     content: '';
     position: absolute;
     display: block;
-    height: 32.25em;
-    width: 28.75em;
+    height: 516/16em;
+    width: 460/16em;
     background: url("/img/content-circles.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
-    top: -14.125em;
-    right: -6.8125em;
+    top: -226/16em;
+    right: -109/16em;
     z-index: -1;
   }
   #sidebyside .image-box img {
@@ -88,16 +88,16 @@
 /* Inbetween */
 @media only screen and (min-width: 666px) {
   #sidebyside {
-    padding: 6.25em 0;
+    padding: 100/16em 0;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
   #sidebyside {
-    padding: 9.375em 0;
+    padding: 150/16em 0;
   }
   #sidebyside .container {
-    max-width: 86.9375em;
+    max-width: 1391/16em;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -108,7 +108,7 @@
   }
   #sidebyside .image-box {
     margin: 0;
-    margin-right: 10.625em;
+    margin-right: 170/16em;
   }
 }
 /*-- -------------------------- -->
@@ -128,19 +128,19 @@
   #sidebyside-reverse .content {
     order: 2;
     margin: auto;
-    margin-top: 4.6875em;
-    max-width: 38.1875em;
+    margin-top: 75/16em;
+    max-width: 611/16em;
   }
   #sidebyside-reverse .content h2 {
-    font-size: 3em;
-    margin-bottom: 0.875em;
+    font-size: 48/16em;
+    margin-bottom: 42/48em;
   }
   #sidebyside-reverse .content p {
-    margin-bottom: 1.11111111em;
+    margin-bottom: 20/18em;
   }
   #sidebyside-reverse .content ul {
-    padding-left: 1.25em;
-    margin-bottom: 1.25em;
+    padding-left: 20/16em;
+    margin-bottom: 20/16em;
   }
   #sidebyside-reverse .content ul li {
     list-style: none;
@@ -149,18 +149,18 @@
     align-items: flex-start;
   }
   #sidebyside-reverse .content ul li img {
-    margin-right: 0.625em;
-    margin-top: 0.22222222em;
+    margin-right: 10/16em;
+    margin-top: 4/18em;
   }
   #sidebyside-reverse .content .button-solid {
-    margin-top: 1.78571429em;
+    margin-top: 25/14em;
   }
   #sidebyside-reverse .image-box {
     display: block;
     position: relative;
     margin: auto;
-    width: 38.1875em;
-    height: 53.8125em;
+    width: 611/16em;
+    height: 861/16em;
     font-size: min(1.4vw, 1em);
   }
   #sidebyside-reverse .image-box:before {
@@ -171,22 +171,22 @@
     width: 100%;
     background: var(--primary);
     opacity: 1;
-    top: 2.5em;
-    left: -2.5em;
+    top: 40/16em;
+    left: -40/16em;
   }
   #sidebyside-reverse .image-box:after {
     content: '';
     position: absolute;
     display: block;
-    height: 32.25em;
-    width: 28.75em;
+    height: 516/16em;
+    width: 460/16em;
     background: url("/img/content-circles.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
-    top: -14.125em;
-    right: -6.8125em;
+    top: -226/16em;
+    right: -109/16em;
     z-index: -1;
   }
   #sidebyside-reverse .image-box img {
@@ -201,16 +201,16 @@
 /* Inbetween */
 @media only screen and (min-width: 666px) {
   #sidebyside-reverse {
-    padding: 6.25em 0;
+    padding: 100/16em 0;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
   #sidebyside-reverse {
-    padding: 9.375em 0;
+    padding: 150/16em 0;
   }
   #sidebyside-reverse .container {
-    max-width: 86.9375em;
+    max-width: 1391/16em;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -222,16 +222,16 @@
   }
   #sidebyside-reverse .image-box {
     margin: 0;
-    margin-left: 10.625em;
+    margin-left: 170/16em;
     order: 2;
   }
   #sidebyside-reverse .image-box:before {
     left: auto;
-    right: -2.5em;
+    right: -40/16em;
   }
   #sidebyside-reverse .image-box:after {
     right: auto;
-    left: -6.8125em;
+    left: -109/16em;
   }
 }
 /*-- -------------------------- -->
@@ -241,7 +241,7 @@
 @media only screen and (min-width: 0em) {
   #cta {
     position: relative;
-    padding: 3.125em 0;
+    padding: 50/16em 0;
   }
   #cta:before {
     content: '';
@@ -250,7 +250,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .7;
+    opacity: 0.7;
     top: 0;
     left: 0;
     z-index: -1;
@@ -277,10 +277,10 @@
   #cta .title {
     font-weight: 900;
     font-size: min(9vw, 3em);
-    line-height: 1.20833333;
+    line-height: 58/48;
     color: #fff;
     position: relative;
-    margin-bottom: 0.75em;
+    margin-bottom: 36/48em;
     text-align: center;
   }
   #cta p {
@@ -288,22 +288,22 @@
     text-align: center;
     opacity: 1;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 36/18em;
     width: 96%;
-    max-width: 33.22222222em;
+    max-width: 598/18em;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #cta {
-    padding: 10.5em 0;
+    padding: 168/16em 0;
   }
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   #cta {
     position: relative;
-    margin-top: 6.25em;
+    margin-top: 100/16em;
   }
   #cta:before {
     display: none;
@@ -312,8 +312,8 @@
     content: '';
     position: absolute;
     display: block;
-    height: 69.25em;
-    width: 125em;
+    height: 1108/16em;
+    width: 2000/16em;
     background: url("/img/cta-squares.svg");
     background-size: contain;
     background-position: center;
@@ -340,7 +340,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .7;
+    opacity: 0.7;
     top: 0;
     left: 0;
     z-index: 1;
