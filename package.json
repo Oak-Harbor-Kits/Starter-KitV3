@@ -1,0 +1,23 @@
+{
+  "name": "webkit",
+  "version": "0.1.0",
+  "description": "Basic 5 page JAM stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawhurstDigital/webkit.git"
+  },
+  "author": "Shawhurst Digital",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ShawhurstDigital/webkit/issues"
+  },
+  "homepage": "https://github.com/ShawhurstDigital/webkit#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
