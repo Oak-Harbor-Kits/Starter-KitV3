@@ -118,7 +118,7 @@
   #hero {
     padding-top: 17.0625em;
     padding-bottom: 19.1875em;
-    background: url("../images/landing.jpg");
+    background: url("/img/landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
