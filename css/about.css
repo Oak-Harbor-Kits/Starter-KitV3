@@ -84,7 +84,7 @@
     display: block;
     height: 32.25em;
     width: 28.75em;
-    background: url("/images/content-circles.svg");
+    background: url("/img/content-circles.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@
     display: block;
     height: 69.25em;
     width: 125em;
-    background: url("../images/cta-squares.svg");
+    background: url("/img/cta-squares.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
