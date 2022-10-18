@@ -4,78 +4,64 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #portfolio {
-    padding-top: 3.125em;
+    padding-top: 50/16em;
     padding-bottom: 35%;
     position: relative;
     z-index: 5;
   }
   #portfolio .container {
     width: 96%;
-    max-width: 82.625em;
+    max-width: 1322/16em;
     padding: 0;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 1.875em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30/16em;
     font-size: min(1.3vw, 1em);
   }
   #portfolio .container .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    gap: 1.875em;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30/16em;
   }
   #portfolio .container .row:nth-of-type(1) picture:nth-of-type(1) {
-    width: 26.25em;
-    height: 35.4375em;
+    width: 420/16em;
+    height: 567/16em;
   }
   #portfolio .container .row:nth-of-type(1) picture:nth-of-type(2) {
-    width: 26.25em;
-    height: 39.3125em;
+    width: 420/16em;
+    height: 629/16em;
   }
   #portfolio .container .row:nth-of-type(1) picture:nth-of-type(3) {
-    width: 26.25em;
-    height: 32em;
+    width: 420/16em;
+    height: 512/16em;
   }
   #portfolio .container .row:nth-of-type(2) picture:nth-of-type(1) {
-    width: 26.25em;
-    height: 30.75em;
+    width: 420/16em;
+    height: 492/16em;
   }
   #portfolio .container .row:nth-of-type(2) picture:nth-of-type(2) {
-    width: 26.25em;
-    height: 32.3125em;
+    width: 420/16em;
+    height: 517/16em;
   }
   #portfolio .container .row:nth-of-type(2) picture:nth-of-type(3) {
-    width: 26.25em;
-    height: 39.3125em;
+    width: 420/16em;
+    height: 629/16em;
   }
   #portfolio .container .row:nth-of-type(3) picture:nth-of-type(1) {
-    width: 26.25em;
-    height: 39.0625em;
+    width: 420/16em;
+    height: 625/16em;
   }
   #portfolio .container .row:nth-of-type(3) picture:nth-of-type(2) {
-    width: 26.25em;
-    height: 28.25em;
+    width: 420/16em;
+    height: 452/16em;
   }
   #portfolio .container .row:nth-of-type(3) picture:nth-of-type(3) {
-    width: 26.25em;
-    height: 39.3125em;
+    width: 420/16em;
+    height: 629/16em;
   }
   #portfolio .container .row picture {
     position: relative;
@@ -87,15 +73,14 @@
     left: 0;
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 0.5em;
+    object-fit: cover;
+    border-radius: 8/16em;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #portfolio {
-    padding: 9.375em 0;
+    padding: 150/16em 0;
   }
 }
 /*-- -------------------------- -->
@@ -105,7 +90,7 @@
 @media only screen and (min-width: 0em) {
   #cta {
     position: relative;
-    padding: 3.125em 0;
+    padding: 50/16em 0;
   }
   #cta:before {
     content: '';
@@ -114,7 +99,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .7;
+    opacity: 0.7;
     top: 0;
     left: 0;
     z-index: -1;
@@ -136,16 +121,15 @@
     left: 0;
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   #cta .title {
     font-weight: 900;
     font-size: min(9vw, 3em);
-    line-height: 1.20833333;
+    line-height: 58/48;
     color: #fff;
     position: relative;
-    margin-bottom: 0.75em;
+    margin-bottom: 36/48em;
     text-align: center;
   }
   #cta p {
@@ -153,22 +137,22 @@
     text-align: center;
     opacity: 1;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 36/18em;
     width: 96%;
-    max-width: 33.22222222em;
+    max-width: 598/18em;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #cta {
-    padding: 10.5em 0;
+    padding: 168/16em 0;
   }
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   #cta {
     position: relative;
-    margin-top: 6.25em;
+    margin-top: 100/16em;
   }
   #cta:before {
     display: none;
@@ -177,8 +161,8 @@
     content: '';
     position: absolute;
     display: block;
-    height: 69.25em;
-    width: 125em;
+    height: 1108/16em;
+    width: 2000/16em;
     background: url("/img/cta-squares.svg");
     background-size: contain;
     background-position: center;
@@ -186,8 +170,7 @@
     opacity: 1;
     bottom: 0;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     z-index: -3;
   }
   #cta .container {
@@ -197,8 +180,7 @@
   #cta picture {
     width: 90.0625%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   #cta picture:before {
     content: '';
@@ -207,7 +189,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .7;
+    opacity: 0.7;
     top: 0;
     left: 0;
     z-index: 1;
